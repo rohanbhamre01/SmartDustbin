@@ -16,6 +16,7 @@ Arduino UNO/Mega or Esp(32/8266) or MSP 430 Launchpad
 TowerPro SG 90 Micro Servo Motor
 HC-SR04 x2 Ultrasonic Distance Sensor
 RaspberryPi 4B
+NEO-6M GPS module
 
 Software Requirement:
 Arduino IDE
