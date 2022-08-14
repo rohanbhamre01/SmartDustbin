@@ -5,7 +5,7 @@ import string
 import pynmea2
 #push message related libraries
 from pushbullet import Pushbullet
-pb= Pushbullet("o.wvpfI303QYadbHKKG1Nw8lj5nP3NhOyg")
+pb= Pushbullet("put your code here")
 
 #print registered devices
 print(pb.devices[0])
@@ -13,9 +13,9 @@ print(pb.devices[0])
 #define push notification
 def notification():
     #get devices the user has access to
-    real = pb.get_device('Realme RMX1931')
+    real = pb.get_device('Device name here')
     #send push notification over to user("head","body")
-    push =  real.push_note("Alert!!","Dustbin is full.Click On link to see Location:\n http://maps.google.com/maps?&z=15&mrt=yp&t=k&q=19.250992,73.139576")
+    push =  real.push_note("Alert!!","Dustbin is full.Click On link to see Location:\n (preset location here)")
 
 #main
 if __name__=='__main__':
