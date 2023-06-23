@@ -6,25 +6,26 @@ The Smart Dustbin using a proximity sensor uses object detection, where the Prox
 and when the sensor detects any object like a human hand, it will trigger the Micro Servo to open the lid.
 
 Features:
-Automated Lid
-LEDs to denote the level of trash
-Alert notifications when filled to full capacity
+Automated Lid.
+LCD to display the level of trash.
+Alert notifications when filled to full capacity.
+Gps Based location of the Dustbin. note: GPS module only runs under the direct sky.
 
 Requirements:
 Hardware Requirements: 
-Arduino UNO/Mega or Esp(32/8266) or MSP 430 Launchpad
-TowerPro SG 90 Micro Servo Motor
+Arduino UNO/Mega or MSP 430 Launchpad
+Micro Servo Motor
 HC-SR04 x2 Ultrasonic Distance Sensor
-RaspberryPi 4B
+RaspberryPi 3/4B
 NEO-6M GPS module
 
 Software Requirement:
 Arduino IDE
 Python
-Android app : Pushbullet
+Android app: Pushbullet
 
 Process:
-Connect Arduino to Raspberrypi using usb cable.
-Install .ino file to microcontroller and run the python file on Raspberrypi
+Connect Arduino to Raspberry Pi using a USB cable.
+Install the .ino file to the microcontroller and run the python file on Raspberry pi GUI
 
-few changes required based on trials.
+A few changes may be required based on trials.
